@@ -1,5 +1,5 @@
 <?php
-namespace Sunmant\PHPConst2JScode;
+namespace LebedevSergey\PHPConst2JScode;
 
 use ReflectionClass;
 
