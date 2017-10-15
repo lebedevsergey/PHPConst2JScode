@@ -1,0 +1,8 @@
+{
+    "name": "lebedevsergey/phpconst2jscode",
+    "autoload": {
+        "psr-0" : {
+            "LebedevSergey\\PHPConst2JScode" : "src"
+        }
+    }
+}
