@@ -1,8 +1,13 @@
 {
-    "name": "lebedevsergey/phpconst2jscode",
+    "name": "sunmant/phpconst2jscode",
+    "description": "A short description of what your package does",
+    "require": {
+        "php": "^5.3.3 || ^7.0",
+        "another-vendor/package": "1.*"
+    },
     "autoload": {
-        "psr-0" : {
-            "LebedevSergey\\PHPConst2JScode" : "src"
+        "psr-0": {
+            "LebedevSergey\\PHPConst2JScode": "src"
         }
     }
 }
