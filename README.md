@@ -1,7 +1,7 @@
 # PHPConst2Json #
 
 ### What is it? ###
-* A small library that outputs PHP class constants as JSON
+* A small library that outputs PHP class constants as JSON array. You can use it when you use constants values from PHP backend in JavaScript code
 
 ### How to use it? ###
 * Add PHPConst2JScode to your project
@@ -14,7 +14,7 @@
 * PHP 5 or higher is required
 
 
-### Who wrote this? ###
+### Author? ###
 * (c) 2017 Sergey Lebedev, licensed under the Apache License, Version 2.0
 * Feel free to contact me at:
     * https://habrahabr.ru/users/sunman/
