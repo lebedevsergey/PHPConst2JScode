@@ -1,11 +1,10 @@
 # PHPConst2Json #
 
 ### What is it? ###
-* A small library that outputs PHP class constants as JSON array. You can use it when you use constants values from PHP backend in JavaScript code
+* A small library that outputs PHP class constants as JSON array for transfering constants values from PHP backend to JavaScript code
 
 ### How to use it? ###
 * Add PHPConst2JScode to your project `composer require sunmant/phpconst2jscode`
-
 * create PHPConst2JScode object: `$c = new PHPConst2JScode()`
 * add class with constants you need in your JS code: `$c->addClassConstants(ClassWithConstants::class);`
 * get JSON strring with constants and put it to your JS code: `$JsonedConstants = $c->getJSON();` (It is better to use here fully quelified class names than class aliases)
