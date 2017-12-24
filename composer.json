@@ -9,9 +9,9 @@
             "email": "diacomltd@mail.ru"
         }
     ],
+    "minimum-stability": "dev",
     "require": {
         "php": "^5.3.3 || ^7.0",
-        "another-vendor/package": "1.*"
     },
     "autoload": {
         "psr-0": {
