@@ -7,7 +7,8 @@
 * Add PHPConst2JScode to your project `composer require sunmant/phpconst2jscode`
 * create PHPConst2JScode object: `$c = new PHPConst2JScode()`
 * add class with constants you need in your JS code: `$c->addClassConstants(ClassWithConstants::class);`
-* get JSON strring with constants and put it to your JS code: `$JsonedConstants = $c->getJSON();` (It is better to use here fully quelified class names than class aliases)
+* get constants JSON and add it to your JS code, for example like this: `echo 'var PHPConstants = ' . $c->getJSON();` (It is better to use fully qualified class names here than aliases)
+* now you can use PHP constants values in yourJS code: `var someConstantValue = PHPConstants['ClassWithConstants::SOME_CONSTANT'];`
 
 
 ### What else? ###
