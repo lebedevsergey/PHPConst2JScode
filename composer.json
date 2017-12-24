@@ -1,5 +1,5 @@
 {
-    "name": "sunmant/phpconst2json",
+    "name": "sunmant/phpconst2js",
     "description": "A small library for converting PHP class constants to JSON array. You can use it when you new constants values from PHP backend in JavaScript code",
     "type": "library",
     "license": "Apache License",
@@ -15,7 +15,7 @@
     },
     "autoload": {
         "psr-0": {
-            "sunmant/phpconst2json": "src"
+            "sunmant/phpconst2js": "src"
         }
     }
 }

@@ -1,4 +1,4 @@
-# PHPConst2Json #
+# PHPconst2JS #
 
 ### What is it? ###
 * A small library that outputs PHP class constants as JSON array for transfering constants values from PHP backend to JavaScript code
