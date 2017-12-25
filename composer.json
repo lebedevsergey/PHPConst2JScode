@@ -16,8 +16,8 @@
     "require-dev": {
     },
     "autoload": {
-        "psr-0": {
-            "sunmant\\phpconst2js\\": "src/"
+        "psr-4": {
+            "Sunmant\\phpconst2js\\": "src/"
         }
     }
 }
