@@ -1,9 +1,9 @@
 <?php
-namespace sunmant/phpconst2js;
+namespace sunmant\phpconst2js;
 
 use ReflectionClass;
 
-class PHPConst2JScode
+class PHPConst2JS
 {
     private $constants = [];
 
