@@ -1,5 +1,5 @@
 <?php
-namespace sunmant\phpconst2js;
+namespace Sunmant\phpconst2js;
 
 use ReflectionClass;
 
