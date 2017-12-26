@@ -2,7 +2,7 @@
 
 use Sunmant\PHPConst2JS\PHPConst2JS;
 
-class ClassWithConstants
+class ClassWithConstant
 {
     const CONSTANT1 = 1;
 }
@@ -19,9 +19,9 @@ class PHPConst2JSTest extends PHPUnit_Framework_TestCase
     public function testAddConstAndGetJSON()
     {
         $var = new PHPConst2JS();
-        $var->addClassConstants(ClassWithConstants::class);
+        $var->addClassConstants(ClassWithConstant::class);
 
-        $arr['ClassWithConstants::CONSTANT1'] = ClassWithConstants::CONSTANT1;
+        $arr['ClassWithConstant::CONSTANT1'] = ClassWithConstant::CONSTANT1;
         $this->assertSame($var->getJSON(), json_encode($arr));
         unset($var);
     }
