@@ -1,15 +1,23 @@
-Composer Library Template
-=========================
+# PHPconst2JS #
 
-If you are trying to create a new PHP Composer library, whether it will be going to submitted to packagist.org or just in your Github account, this template of files will surely help you make the process a lot easier and faster.
+### What is it? ###
+* A small library that outputs PHP class constants as JSON array for transfering constants values from PHP backend to JavaScript code
 
-Features
---------
+### How to use it? ###
+* Add PHPConst2JScode to your project `composer require sunmant/phpconst2jscode`
+* create PHPConst2JScode object: `$c = new PHPConst2JScode()`
+* add class with constants you need in your JS code: `$c->addClassConstants(ClassWithConstants::class);`
+* get constants JSON and add it to your JS code, for example like this: `echo 'var PHPConstants = ' . $c->getJSON();` (It is better to use fully qualified class names here than aliases)
+* now you can use PHP constants values in yourJS code: `var someConstantValue = PHPConstants['ClassWithConstants::SOME_CONSTANT'];`
 
-* PSR-4 autoloading compliant structure
-* Unit-Testing with PHPUnit
-* Comprehensive Guides and tutorial
-* Easy to use to any framework or even a plain php file
+
+### What else? ###
+* PHP 5 or higher is required
 
 
-I encourage that you put more information on this readme file instead of leaving it as is. See [http://www.darwinbiler.com/designing-and-making-the-readme-file-for-your-github-repository/](How to make a README file) for more info.
+### Author? ###
+* (c) 2017 Sergey Lebedev, licensed under the Apache License, Version 2.0
+* Feel free to contact me at:
+    * https://habrahabr.ru/users/sunman/
+    * http://stackoverflow.com/users/7135046/sergeylebedev
+    * https://www.facebook.com/sergei.lebedev.5891
